@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pomodoro app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coda&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Podkova&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="empty"></div>
+      <div class="container">
+        <div class="logo">pomodoro</div>
+        <div class="setting">Setting</div>
+      </div>
+      <div class="date">date</div>
+    </div>
+    <div class="main">
+      <div class="nav">
+        <div class="pom selected">pomodoro</div>
+        <div class="short">short break</div>
+        <div class="long">long break</div>
+      </div>
+      <div class="timer">25:00</div>
+      <div class="conatinerbtn">
+        <div class="button">Start</div>
+      </div>
+    </div>
+    <div class="counter"><span class="counterNumber">#1</span></div>
+    <div class="generator">
+      The successful warrior is the average man, with laser-like focus
+    </div>
+    <form class="hidden" id="form">
+      <div class="container1">
+        <div>pomodoro:</div>
+        <div>shortBreak:</div>
+        <div>long break:</div>
+        <input type="number" min="1" value="25" />
+        <input type="number" min="1" value="5" />
+        <input type="number" min="1" value="60" />
+      </div>
+      <div class="container2">
+        <div class="title4">long break Interval:</div>
+        <input type="number" min="2" value="4" class="interval" />
+      </div>
+      <div class="container3">
+        <div>Theme1:</div>
+        <div>Theme2:</div>
+        <div>Theme3:</div>
+        <input type="color" value="#ea4242" />
+        <input type="color" value="#0077b6" />
+        <input type="color" value="#023e8a" />
+      </div>
+      <div class="container4">
+        <div class="cancel">cancel</div>
+        <div class="change">change</div>
+      </div>
+    </form>
+
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

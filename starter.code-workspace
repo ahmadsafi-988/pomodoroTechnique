@@ -1,0 +1,10 @@
+{
+  "folders": [
+	{
+		"path": "../../13-Advanced-DOM-Bankist/starter"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "starter"
+  }
+}
